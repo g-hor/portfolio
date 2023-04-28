@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1655,4 +1658,27 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		.typewriter h1 {
+			overflow: hidden; /* Ensures the content is not revealed until the animation */
+			border-right: .15em solid orange; /* The typwriter cursor */
+			white-space: nowrap; /* Keeps the content on a single line */
+			margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+			letter-spacing: .15em; /* Adjust as needed */
+			animation: 
+				typing 3.5s steps(40, end),
+				blink-caret .75s step-end infinite;
+		}
+		
+		/* The typing effect */
+		@keyframes typing {
+			from { width: 0 }
+			to { width: 100% }
+		}
+		
+		/* The typewriter cursor effect */
+		@keyframes blink-caret {
+			from, to { border-color: transparent }
+			50% { border-color: rgb(40, 7, 67); }
 		}
