@@ -388,9 +388,9 @@ section {
   position: absolute;
   display: block;
   width: 40px;
-  height: 3px;
+  height: 1px;
   background: #390b76;
-  bottom: 0;
+  bottom: 1px;
   left: calc(50% - 20px);
 }
 
