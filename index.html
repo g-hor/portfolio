@@ -1,121 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>Gary Hor</title>
+      <meta content="Gary Hor's Portfolio Site" name="description" />
+      <meta content="Gary Hor Portfolio" name="keywords" />
 
-  <title>Gary Hor</title>
-  <meta content="Gary Hor's Portfolio Site" name="description">
-  <meta content="Gary Hor Portfolio" name="keywords">
+      <!-- Favicons -->
+      <link href="assets/img/favicon.ico" rel="icon" />
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <!-- Google Fonts -->
+      <link
+         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+         rel="stylesheet"
+      />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <!-- FontAwesome -->
+      <script src="https://kit.fontawesome.com/2687a23fd5.js" crossorigin="anonymous"></script>
 
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/2687a23fd5.js" crossorigin="anonymous"></script>
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+      <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <!-- Template Main CSS File -->
+      <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
+      <!-- =======================================================
   * Template Name: MyResume
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+   </head>
 
-<body>
+   <body>
+      <!-- ======= Mobile nav toggle button ======= -->
+      <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+      <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+      <!-- ======= Header ======= -->
+      <header id="header" class="d-flex flex-column justify-content-center">
+         <nav id="navbar" class="navbar nav-menu">
+            <ul>
+               <li>
+                  <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+               </li>
+               <li>
+                  <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+               </li>
+               <li>
+                  <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+               </li>
+               <li>
+                  <a href="#portfolio" class="nav-link scrollto"
+                     ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+                  >
+               </li>
+            </ul>
+         </nav>
+         <!-- .nav-menu -->
+      </header>
+      <!-- End Header -->
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Gary Hor</h1>
-      <p>I'm a <span class="typed" data-typed-items="software engineer., team player., gamer."></span></p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/g-hor/" class="linkedin" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://github.com/g-hor" class="twitter" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github-alt"></i></a>
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p></p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Software Engineer</h3>
-            <p class="fst-italic">
-              Enthusiastic full stack software engineer who loves people and technology.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:ghor.dev@gmail.com">ghor.dev@gmail.com</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(646) 354 - 8928</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Brooklyn, NY, USA</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a href="https://www.linkedin.com/in/g-hor/" target="blank" rel="noreferrer noopener">g-hor</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span><a href="https://github.com/g-hor" target="_blank" rel="noreferrer noopener">g-hor</a></span></li>
-                </ul>
-              </div>
+      <!-- ======= Hero Section ======= -->
+      <section id="hero" class="d-flex flex-column justify-content-center">
+         <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Gary Hor</h1>
+            <p>I'm a <span class="typed" data-typed-items="software engineer., team player., gamer."></span></p>
+            <div class="social-links">
+               <a href="https://www.linkedin.com/in/g-hor/" class="linkedin" target="_blank" rel="noreferrer noopener"
+                  ><i class="fa-brands fa-linkedin-in"></i
+               ></a>
+               <a href="https://github.com/g-hor" class="twitter" target="_blank" rel="noreferrer noopener"
+                  ><i class="fa-brands fa-github-alt"></i
+               ></a>
             </div>
-            <p>
-              Hi, I’m Gary — a software engineer with a background in education and mental health. I care deeply about design clarity, clean code, and building tools that make a real impact. Before transitioning into tech, I spent years working with students to understand and troubleshoot the barriers affecting their learning and growth. Now, I apply that same analytical mindset to web applications, enhancing user experience while supporting business goals.
-            </p>
-          </div>
-        </div>
+         </div>
+      </section>
+      <!-- End Hero -->
 
-      </div>
-    </section><!-- End About Section -->
+      <main id="main">
+         <!-- ======= About Section ======= -->
+         <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>About</h2>
+                  <p></p>
+               </div>
 
-    <!-- ======= Facts Section ======= -->
-    <!-- <section id="facts" class="facts">
+               <div class="row">
+                  <div class="col-lg-4">
+                     <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-lg-8 pt-4 pt-lg-0 content">
+                     <h3>Software Engineer</h3>
+                     <p class="fst-italic">
+                        Enthusiastic full stack software engineer who loves people and technology.
+                     </p>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <ul>
+                              <li>
+                                 <i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                 <span><a href="mailto:ghor.dev@gmail.com">ghor.dev@gmail.com</a></span>
+                              </li>
+                              <li>
+                                 <i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                                 <span>(646) 354 - 8928</span>
+                              </li>
+                              <li>
+                                 <i class="bi bi-chevron-right"></i> <strong>City:</strong>
+                                 <span>Brooklyn, NY, USA</span>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="col-lg-6">
+                           <ul>
+                              <li>
+                                 <i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong>
+                                 <span
+                                    ><a
+                                       href="https://www.linkedin.com/in/g-hor/"
+                                       target="blank"
+                                       rel="noreferrer noopener"
+                                       >g-hor</a
+                                    ></span
+                                 >
+                              </li>
+                              <li>
+                                 <i class="bi bi-chevron-right"></i> <strong>GitHub:</strong>
+                                 <span
+                                    ><a href="https://github.com/g-hor" target="_blank" rel="noreferrer noopener"
+                                       >g-hor</a
+                                    ></span
+                                 >
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <p>
+                        Hi, I’m Gary — a software engineer with a background in education and mental health. I care
+                        deeply about design clarity, clean code, and building tools that make a real impact. Before
+                        transitioning into tech, I spent years working with students to understand and troubleshoot the
+                        barriers affecting their learning and growth. Now, I apply that same analytical mindset to web
+                        applications, enhancing user experience while supporting business goals.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- End About Section -->
+
+         <!-- ======= Facts Section ======= -->
+         <!-- <section id="facts" class="facts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -161,18 +205,83 @@
 
       </div>
     </section> -->
-    <!-- End Facts Section -->
+         <!-- End Facts Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
+         <!-- ======= Skills Section ======= -->
+         <section id="skills" class="skills section-bg">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Skills</h2>
+                  <p>
+                     I have a keen eye for design, and I pride myself in my communication and collaborative skills. I am
+                     proficient with the following:
+                  </p>
+               </div>
 
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>I have a keen eye for design, and I pride myself in my communication and collaborative skills. In addition to the technologies listed below, I am proficient with: </br>Redux, MongoDB, Mongoose, Node.js, Express, SQL, PostgreSQL, Git, SASS, D3, and AWS.</p>
-        </div>
+               <section class="tech-section">
+                  <div class="tech-row">
+                     <div class="category">Languages</div>
+                     <div class="tech-list">
+                        <div class="tech-item">JavaScript</div>
+                        <div class="tech-item">TypeScript</div>
+                        <div class="tech-item">Ruby</div>
+                        <div class="tech-item">Bash</div>
+                     </div>
+                  </div>
 
-        <div class="row skills-content">
+                  <div class="tech-row">
+                     <div class="category">Frameworks & Libraries</div>
+                     <div class="tech-list">
+                        <div class="tech-item">React.js</div>
+                        <div class="tech-item">Redux</div>
+                        <div class="tech-item">Node.js</div>
+                        <div class="tech-item">Express</div>
+                        <div class="tech-item">NestJS</div>
+                        <div class="tech-item">Ruby on Rails</div>
+                     </div>
+                  </div>
+
+                  <div class="tech-row">
+                     <div class="category">Web & UI Development</div>
+                     <div class="tech-list">
+                        <div class="tech-item">HTML</div>
+                        <div class="tech-item">CSS</div>
+                        <div class="tech-item">SCSS</div>
+                        <div class="tech-item">UXP</div>
+                        <div class="tech-item">CEP</div>
+                     </div>
+                  </div>
+
+                  <div class="tech-row">
+                     <div class="category">Databases</div>
+                     <div class="tech-list">
+                        <div class="tech-item">SQL</div>
+                        <div class="tech-item">MongoDB</div>
+                        <div class="tech-item">PostgreSQL</div>
+                     </div>
+                  </div>
+
+                  <div class="tech-row">
+                     <div class="category">DevOps & Cloud</div>
+                     <div class="tech-list">
+                        <div class="tech-item">AWS</div>
+                        <div class="tech-item">Azure DevOps</div>
+                     </div>
+                  </div>
+
+                  <div class="tech-row">
+                     <div class="category">Tools & Platforms</div>
+                     <div class="tech-list">
+                        <div class="tech-item">Git</div>
+                        <div class="tech-item">GitHub</div>
+                        <div class="tech-item">Jest</div>
+                        <div class="tech-item">Webpack</div>
+                        <div class="tech-item">Figma</div>
+                     </div>
+                  </div>
+               </section>
+
+               <!-- <div class="row skills-content">
 
           <div class="col-lg-6">
 
@@ -224,102 +333,210 @@
 
           </div>
 
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2><a href="assets/img/Gary_Hor_Resume.pdf" target="_blank" rel="noreferrer noopener">Resume</a></h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Projects</h3>
-            <div class="resume-item pb-0">
-              <h4>Pindrip</h4>
-              <p><em>A Pinterest-inspired single-page media sharing application using: React / Redux, Ruby on Rails, JavaScript, AWS, HTML5, and CSS3</em></p>
-              <ul>
-                <li>Developed a user profile editing system with multiple interactive forms by tracking local state and user input</li>
-                <li>Designed a robust PostgreSQL database schema that effectively established functional relationships among users, boards, and pins by utilizing a joins table</li>
-                <li>Integrated AWS for image hosting to enable media sharing functionality for creating posts and customizing a user profile’s avatar</li>
-              </ul>
+        </div> -->
             </div>
+         </section>
+         <!-- End Skills Section -->
 
-            <div class="resume-item pb-0">
-              <h4>United Stats of America</h4>
-              <p><em>A JavaScript data visualization of mental health and drug use statistics using: JavaScript, D3, HTML5, and CSS3</em></p>
-              <ul>
-                <li>Created a choropleth map of the U.S. by mapping TopoJSON and CSV data to color each state based on its deviation from the national average</li>
-                <li>Incorporated zooming functionality and modals displaying state-level numerical data using the D3 library and vanilla JavaScript for smooth user experience and informative interactivity</li>
-                <li>Implemented a CSV data filter system with document listeners that dynamically applied color schemes based on user selections</li>
-              </ul>
-            </div>
+         <!-- ======= Resume Section ======= -->
+         <section id="resume" class="resume">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Resume</h2>
+                  <p>
+                     <a href="assets/img/Gary_Hor_Resume.pdf" target="_blank" rel="noreferrer noopener"
+                        >Click here to download the PDF version.</a
+                     >
+                  </p>
+               </div>
 
-            <div class="resume-item pb-0">
-              <h4>5TACK</h4>
-              <p><em>A networking forum that connects remote players of various games using: MongoDB, Express, React / Redux, Node, AWS, HTML5, CSS3</em></p>
-              <ul>
-                <li>Collaborated with a team of 4 engineers, utilizing efficient git and pull request workflow to minimize potential merge conflicts</li>
-                <li>Unified the team as the lead frontend developer by identifying core themes in the user interface and troubleshooting communication between the frontend and backend</li>
-                <li>Restructured the frontend and backend to enable commenting functionality by properly linking frontend React components with backend data in MongoDB</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item pb-0">
-              <h4>Member Resource Specialist (Temporary)</h4>
-              <h5>August 2022 - November 2022</h5>
-              <p><em>1199SEIU Training and Employment Fund, New York, NY </em></p>
-              <ul>
-                <li>Optimized status reports of candidate pools by job category through the production and tabulation of outreach data using Microsoft Excel</li>
-                <li>Achieved over 300% increase in candidate interviews by performing outreach to an average of 50 clients per day</li>
-              </ul>
-            </div>
-            <div class="resume-item pb-0">
-              <h4>Advocate Counselor</h4>
-              <h5>April 2021 - March 2022</h5>
-              <p><em>Good Shepherd Services, New York, NY</em></p>
-              <ul>
-                <li>Managed a caseload of 50 to 60 undercredited high school students and provided biweekly outreach and counseling sessions</li>
-                <li>Increased the graduation rate of assigned individual caseload from 50% to 80%</li>
-              </ul>
-            </div>
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Certification in Software Engineering</h4>
-              <h5>April 2023</h5>
-              <p><em>App Academy, New York, NY</em></p>
-              <p>Immersive software development course with a focus on full stack web development and collaborative programming</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Arts in Psychology</h4>
-              <h5>August 2020</h5>
-              <p><em>CUNY Brooklyn College, Brooklyn, NY</em></p>
-              <p>summa cum laude (GPA: 4.00)</p>
-            </div>
-          </div>
-        </div>
+               <div class="row">
+                  <div class="col-lg-6">
+                     <h3 class="resume-title">Professional Experience</h3>
+                     <div class="resume-item pb-0">
+                        <h4>Software Engineer</h4>
+                        <h5>December 2023 - Present</h5>
+                        <p><em>Teacup Software, New York, NY </em></p>
+                        <ul>
+                           <li>
+                              Built a reusable, extensible React TypeScript component library aligned with Adobe
+                              Spectrum design guidelines, enabling consistent UI across applications.
+                           </li>
+                           <li>
+                              Spearheaded end-to-end development of a cross-platform plugin for the Adobe suite
+                              (Express, Photoshop, InDesign, Illustrator), driving the project from conception to
+                              implementation.
+                           </li>
+                           <li>
+                              Designed and implemented localization infrastructure to support multilingual expansion,
+                              positioning the plugin for global scalability.
+                           </li>
+                           <li>
+                              Wrote comprehensive unit tests with Jest to ensure frontend and backend reliability,
+                              contributing to a stable and maintainable codebase.
+                           </li>
+                           <li>
+                              Championed best practices in collaboration, emphasizing clean architecture, semantic code,
+                              and long-term maintainability and performance.
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="resume-item pb-0">
+                        <h4>Web Developer</h4>
+                        <h5>May 2024 - August 2024</h5>
+                        <p><em>Asian Cinevision, New York, NY </em></p>
+                        <ul>
+                           <li>
+                              Refactored complex UI data flow using Factory Pattern DTOs and custom React hooks to
+                              simplify how multi-instance data was displayed, improving clarity and maintainability
+                              across shared components.
+                           </li>
+                           <li>
+                              Improved mobile UX by implementing a responsive filter confirmation system, resulting in a
+                              smoother search flow and increased ticket sales.
+                           </li>
+                           <li>
+                              Resolved cross-platform layout and alignment issues in forms rendered by third-party
+                              libraries (Material UI, Elevent), ensuring design fidelity and a polished user experience
+                              across browsers and devices.
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="resume-item pb-0">
+                        <h4>Member Resource Specialist (Temporary)</h4>
+                        <h5>August 2022 - November 2022</h5>
+                        <p><em>1199SEIU Training and Employment Fund, New York, NY </em></p>
+                        <ul>
+                           <li>
+                              Optimized status reports of candidate pools by job category through the production and
+                              tabulation of outreach data using Microsoft Excel
+                           </li>
+                           <li>
+                              Achieved over 300% increase in candidate interviews by performing outreach to an average
+                              of 50 clients per day
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="resume-item pb-0">
+                        <h4>Advocate Counselor</h4>
+                        <h5>April 2021 - March 2022</h5>
+                        <p><em>Good Shepherd Services, New York, NY</em></p>
+                        <ul>
+                           <li>
+                              Managed a caseload of 50 to 60 undercredited high school students and provided biweekly
+                              outreach and counseling sessions
+                           </li>
+                           <li>Increased the graduation rate of assigned individual caseload from 50% to 80%</li>
+                        </ul>
+                     </div>
+                  </div>
 
-      </div>
-    </section><!-- End Resume Section -->
+                  <div class="col-lg-6">
+                     <h3 class="resume-title">Projects</h3>
+                     <div class="resume-item pb-0">
+                        <h4>Pindrip</h4>
+                        <p>
+                           <em
+                              >A Pinterest-inspired single-page media sharing application using: React / Redux, Ruby on
+                              Rails, JavaScript, AWS, HTML5, and CSS3</em
+                           >
+                        </p>
+                        <ul>
+                           <li>
+                              Developed a user profile editing system with multiple interactive forms by tracking local
+                              state and user input
+                           </li>
+                           <li>
+                              Designed a robust PostgreSQL database schema that effectively established functional
+                              relationships among users, boards, and pins by utilizing a joins table
+                           </li>
+                           <li>
+                              Integrated AWS for image hosting to enable media sharing functionality for creating posts
+                              and customizing a user profile’s avatar
+                           </li>
+                        </ul>
+                     </div>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
+                     <div class="resume-item pb-0">
+                        <h4>United Stats of America</h4>
+                        <p>
+                           <em
+                              >A JavaScript data visualization of mental health and drug use statistics using:
+                              JavaScript, D3, HTML5, and CSS3</em
+                           >
+                        </p>
+                        <ul>
+                           <li>
+                              Created a choropleth map of the U.S. by mapping TopoJSON and CSV data to color each state
+                              based on its deviation from the national average
+                           </li>
+                           <li>
+                              Incorporated zooming functionality and modals displaying state-level numerical data using
+                              the D3 library and vanilla JavaScript for smooth user experience and informative
+                              interactivity
+                           </li>
+                           <li>
+                              Implemented a CSV data filter system with document listeners that dynamically applied
+                              color schemes based on user selections
+                           </li>
+                        </ul>
+                     </div>
 
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Click on any of my projects for more pictures, information, and links.</p>
-        </div>
+                     <div class="resume-item pb-0">
+                        <h4>5TACK</h4>
+                        <p>
+                           <em
+                              >A networking forum that connects remote players of various games using: MongoDB, Express,
+                              React / Redux, Node, AWS, HTML5, CSS3</em
+                           >
+                        </p>
+                        <ul>
+                           <li>
+                              Collaborated with a team of 4 engineers, utilizing efficient git and pull request workflow
+                              to minimize potential merge conflicts
+                           </li>
+                           <li>
+                              Unified the team as the lead frontend developer by identifying core themes in the user
+                              interface and troubleshooting communication between the frontend and backend
+                           </li>
+                           <li>
+                              Restructured the frontend and backend to enable commenting functionality by properly
+                              linking frontend React components with backend data in MongoDB
+                           </li>
+                        </ul>
+                     </div>
 
-        <!-- <div class="row">
+                     <h3 class="resume-title">Education</h3>
+                     <div class="resume-item">
+                        <h4>Certification in Software Engineering</h4>
+                        <h5>April 2023</h5>
+                        <p><em>App Academy, New York, NY</em></p>
+                        <p>
+                           Immersive software development course with a focus on full stack web development and
+                           collaborative programming
+                        </p>
+                     </div>
+                     <div class="resume-item">
+                        <h4>Bachelor of Arts in Psychology</h4>
+                        <h5>August 2020</h5>
+                        <p><em>CUNY Brooklyn College, Brooklyn, NY</em></p>
+                        <p>summa cum laude (GPA: 4.00)</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- End Resume Section -->
+
+         <!-- ======= Portfolio Section ======= -->
+         <section id="portfolio" class="portfolio section-bg">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Portfolio</h2>
+                  <p>Click on any of my projects for more pictures, information, and links.</p>
+               </div>
+
+               <!-- <div class="row">
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -330,57 +547,91 @@
           </div>
         </div> -->
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+               <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/MERNsplash.gif" class="img-fluid" alt="" />
+                        <div class="portfolio-info">
+                           <h4>5TACK</h4>
+                           <p>A MERN stack application</p>
+                           <div class="portfolio-links">
+                              <a
+                                 href="assets/img/portfolio/MERNmain.png"
+                                 data-gallery="portfolioGallery"
+                                 class="portfolio-lightbox"
+                                 title=""
+                                 ><i class="bx bx-plus"></i
+                              ></a>
+                              <a
+                                 href="mern-details.html"
+                                 class="portfolio-details-lightbox"
+                                 data-glightbox="type: external"
+                                 title=""
+                                 ><i class="bx bx-link"></i
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/MERNsplash.gif" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>5TACK</h4>
-                <p>A MERN stack application</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/MERNmain.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
-                  <a href="mern-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title=""><i class="bx bx-link"></i></a>
-                </div>
-              </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/FSsplash.gif" class="img-fluid" alt="" />
+                        <div class="portfolio-info">
+                           <h4>Pindrip</h4>
+                           <p>A full stack Pinterest-inspired application</p>
+                           <div class="portfolio-links">
+                              <a
+                                 href="assets/img/portfolio/FSmain.png"
+                                 data-gallery="portfolioGallery"
+                                 class="portfolio-lightbox"
+                                 title=""
+                                 ><i class="bx bx-plus"></i
+                              ></a>
+                              <a
+                                 href="fs-details.html"
+                                 class="portfolio-details-lightbox"
+                                 data-glightbox="type: external"
+                                 title=""
+                                 ><i class="bx bx-link"></i
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                     <div class="portfolio-wrap">
+                        <img src="assets/img/portfolio/JSmaps.gif" class="img-fluid" alt="" />
+                        <div class="portfolio-info">
+                           <h4>United Stats of America</h4>
+                           <p>A vanilla JavaScript data visualization</p>
+                           <div class="portfolio-links">
+                              <a
+                                 href="assets/img/portfolio/JSmain.png"
+                                 data-gallery="portfolioGallery"
+                                 class="portfolio-lightbox"
+                                 title=""
+                                 ><i class="bx bx-plus"></i
+                              ></a>
+                              <a
+                                 href="js-details.html"
+                                 class="portfolio-details-lightbox"
+                                 data-glightbox="type: external"
+                                 title=""
+                                 ><i class="bx bx-link"></i
+                              ></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
+         </section>
+         <!-- End Portfolio Section -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/FSsplash.gif" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Pindrip</h4>
-                <p>A full stack Pinterest-inspired application</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/FSmain.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
-                  <a href="fs-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title=""><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/JSmaps.gif" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>United Stats of America</h4>
-                <p>A vanilla JavaScript data visualization</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/JSmain.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
-                  <a href="js-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title=""><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <!-- <section id="services" class="services">
+         <!-- ======= Services Section ======= -->
+         <!-- <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -472,11 +723,10 @@
 
       </div>
     </section> -->
-    <!-- End Services Section -->
+         <!-- End Services Section -->
 
-
-    <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact">
+         <!-- ======= Contact Section ======= -->
+         <!-- <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -540,48 +790,56 @@
 
       </div>
     </section> -->
-    <!-- End Contact Section -->
+         <!-- End Contact Section -->
+      </main>
+      <!-- End #main -->
 
-  </main><!-- End #main -->
+      <!-- ======= Footer ======= -->
+      <footer id="footer">
+         <div class="container">
+            <h3>Gary Hor</h3>
+            <p>Please feel free to reach out to me and connect with me on social media!</p>
+            <div class="social-links">
+               <a href="https://www.linkedin.com/in/g-hor/" class="linkedin" target="_blank" rel="noreferrer noopener"
+                  ><i class="fa-brands fa-linkedin-in"></i
+               ></a>
+               <a href="https://github.com/g-hor" class="twitter" target="_blank" rel="noreferrer noopener"
+                  ><i class="fa-brands fa-github-alt"></i
+               ></a>
+               <a href="https://wellfound.com/u/g-hor" class="facebook" target="_blank" rel="noreferrer noopener"
+                  ><i class="fa-brands fa-angellist"></i
+               ></a>
+            </div>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Gary Hor</h3>
-      <p>Please feel free to reach out to me and connect with me on social media!</p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/g-hor/" class="linkedin" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://github.com/g-hor" class="twitter" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github-alt"></i></a>
-        <a href="https://wellfound.com/u/g-hor" class="facebook" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-angellist"></i></a>
-      </div>
+            <div class="credits">
+               <!-- All the links in the footer should remain intact. -->
+               <!-- You can delete the links only if you purchased the pro version. -->
+               <!-- Licensing information: [license-url] -->
+               <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+               Designed by
+               <a href="https://bootstrapmade.com/" target="_blank" rel="noreferrer noopener">BootstrapMade</a>
+            </div>
+         </div>
+      </footer>
+      <!-- End Footer -->
 
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/" target="_blank" rel="noreferrer noopener">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+      <div id="preloader"></div>
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+         ><i class="bi bi-arrow-up-short"></i
+      ></a>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/typed.js/typed.min.js"></script>
+      <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+   </body>
 </html>

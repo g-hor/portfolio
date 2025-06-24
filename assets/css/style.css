@@ -477,7 +477,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+/* .skills .progress {
    height: 60px;
    display: block;
    background: none;
@@ -508,6 +508,61 @@ section {
    height: 10px;
    transition: 0.9s;
    background-color: #390b76;
+} */
+
+.tech-section {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.tech-row {
+   display: flex;
+   flex-wrap: wrap;
+}
+.tech-row:not(:last-child) {
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 1.5rem;
+   margin-bottom: 1.5rem;
+}
+
+.category {
+   flex: 1 1 200px;
+   font-weight: bold;
+   font-size: 1.1rem;
+   padding-right: 2rem;
+   min-width: 150px;
+}
+
+.tech-list {
+   flex: 3 1 300px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.5rem 1rem;
+}
+
+.tech-item {
+   background: #fff;
+   padding: 0.4rem 0.75rem;
+   border-radius: 6px;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+   font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+   .tech-list {
+      flex: 1 1 1rem;
+   }
+
+   .tech-row {
+      flex-direction: column;
+   }
+
+   .category {
+      flex: 1 1 auto;
+      margin-bottom: 0.5rem;
+      padding-right: 0;
+   }
 }
 
 /*--------------------------------------------------------------
